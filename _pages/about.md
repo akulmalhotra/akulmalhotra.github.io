@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 <p align="right">
-  <img src="https://lantaoyu.github.io/files/IMG_0402.jpg?raw=true" alt="Photo" style="width: 450px;"/> 
+  <img src="https://akulmalhotra.github.io/files/IMG_0402.jpg?raw=true" alt="Photo" style="width: 450px;"/> 
 </p>
 
 # About Me
