@@ -1,5 +1,5 @@
 ---
-title: 'Blog Post number 1'
+title: 'All Spin Bayesian Neural Networks'
 date: 2020-05-07
 permalink: /posts/spinbnn/
 tags:
