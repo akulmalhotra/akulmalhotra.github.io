@@ -302,7 +302,9 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-
+emptyArray: []
+comments:
+  receiver: https://{{akulmalhotra.github.io}}/api/PostComment}}
 # HTML Compression
 # - http://jch.penibelst.de/
 compress_html:
