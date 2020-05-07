@@ -7,8 +7,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<p align="center">
-  <img src="https://akulmalhotra.github.io/files/website.jpeg?raw=true" alt="Photo" style="width: 450px;"/> 
+<p align="right">
+  <img src="https://akulmalhotra.github.io/files/website.jpeg?raw=true" alt="Photo" style="width: 600px;"/> 
 </p>
 
 # About Me
