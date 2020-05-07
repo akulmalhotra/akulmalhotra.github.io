@@ -7,4 +7,4 @@ This page lists the research and academic projects I have worked on. As someone 
 
 <b>Bayesian Neural Network Hardware</b> <br>
  August 2019 - January 2020 <br>
- <a href="http://gradientscience.org/robust_apps/">Blog post</a>
+ <a href="https://akulmalhotra.github.io/posts/spinbnn">Blog post</a>
