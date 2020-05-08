@@ -8,7 +8,8 @@ Here is a list of the projects I have worked on:
 
 <b>Bayesian Neural Network Hardware</b> <br>
  August 2019 - January 2020 <br>
- I worked on designing hardware accelerators for Bayesian neural networks using post CMOS technologies. The design was envisioned using both resistive random access memories (RRAMs) and spintronic devices.
+ <p style='text-align: justify;'>
+ I worked on designing hardware accelerators for Bayesian neural networks using post CMOS technologies. The design was envisioned using both resistive random access memories (RRAMs) and spintronic devices. </p>
  
  <button onclick="document.location = 'https://akulmalhotra.github.io/posts/2020/05/spinbnn'">Blog Post</button>
  
