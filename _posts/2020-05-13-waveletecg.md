@@ -8,7 +8,8 @@ tags:
   - wavelet
 ---
 
-I worked on this project during the second semester of my junior year under the supervision of <a href="https://scholar.google.co.in/citations?hl=en&user=TrujKPcAAAAJ&view_op=list_works">Dr. Ananthakrishna Chintanpalli</a>.</p> 
+<p style='text-align: justify;'>
+I worked on this project during the second semester of my junior year under the supervision of <a href="https://scholar.google.co.in/citations?hl=en&user=TrujKPcAAAAJ&view_op=list_works">Dr. Ananthakrishna Chintanpalli</a>. </p> 
 
 **Briefly explain the problem you worked on.**
 <p style='text-align: justify;'>
@@ -37,6 +38,21 @@ The problem I was trying to solve was to reduce the time taken for the baseline 
 
 <p style='text-align: justify;'>
 Faster processing of the collected data would lead to faster diagnosis, which can be beneficial in multiple ways. A reduction of diagnosis time would enable doctors to make decisions faster, which can be crucial in emergency situations. Also, faster processing means fewer ECG kits would be required to conduct the same number of tests as before, leading to a reduction in costs for the medical facility. </p>
+
+**In your project, what do you propose to improve the state of the art?**
+
+<p style='text-align: justify;'>
+A digital signal processing kit (DSP kit) is a specialized microprocessor with its hardware optimized to run signal processing algorithms. Most signal processing techniques are heavily reliant on floating-point operations, multiply and add operations, matrix multiplication operations, and convolution operations. Although it is possible for a general-purpose CPU to execute the above-mentioned operations, a DSP kit will do it in a much faster and energy-efficient way. This is because of the software and hardware level modifications that make the microprocessor especially suited to DSP. For example, to speed up the Fast Fourier Transform (FFT), one of the most important signal processing algorithms, a DSP kit may have multiple highly parallel multiply and accumulate (MAC) units, since the FFT heavily depends on multiply-accumulate performance. </p>
+
+<p align="center">
+  <img src="https://akulmalhotra.github.io/files/waveletecg/tikit.jpg?raw=true" alt="Photo" style="width: 450px;"/> 
+</p>
+
+<p style='text-align: center;'>
+Figure 4: The TI TMS320C5515 eZdsp board </p>
+
+<p style='text-align: justify;'>
+To improve the state of the art in baseline wander removal, we implemented a wavelet-based filter on the TI TMS3320C5515 ezdsp kit. Figure 4 shows the top view of the DSP board. The original ECG signal had a frequency range of 0-64Hz, which was then decomposed by 7 levels to obtain the frequency band 0-0.5Hz, which contains the baseline wander. This band was then removed and the remaining bands were added to create the reconstructed signal. One thing that I would like to point out is that removing a particular band and then reconstructing the signal using wavelet-based filters can potentially ruin the output signal due to a phenomenon called aliasing. The good thing is that the aliasing is negligible at high levels of signal decomposition (like 7 in the baseline wander removal). Therefore, it does not affect the output signal in baseline wander removal. </p> 
 
 **Please describe your results.**
 
