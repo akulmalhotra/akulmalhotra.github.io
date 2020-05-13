@@ -91,7 +91,7 @@ This work focused on the implementation of one particular signal processing tech
  [1] <a href="https://en.wikipedia.org/wiki/Electrocardiography">https://en.wikipedia.org/wiki/Electrocardiography</a> </p>
  
  <p style='text-align: justify;'>
- [1] <a href="http://www.ti.com/tool/TMDX5515EZDSP">http://www.ti.com/tool/TMDX5515EZDSP</a> </p>
+ [2] <a href="http://www.ti.com/tool/TMDX5515EZDSP">http://www.ti.com/tool/TMDX5515EZDSP</a> </p>
  
  <p style='text-align: justify;'>
  [3] <a href="https://www.physionet.org/content/nsrdb/1.0.0/">https://www.physionet.org/content/nsrdb/1.0.0/</a>  </p>
