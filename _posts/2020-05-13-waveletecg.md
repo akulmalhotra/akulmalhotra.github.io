@@ -58,7 +58,7 @@ Figure 2: An ideal high pass filter</p>
 Figure 2 shows an ideal high pass filter, which would zero out all frequency components below x, known as the cutoff frequency. In reality, it is impossible to design ideal filters using traditional filter design techniques. Figure 3 shows 2 real high pass filters designed using the same technique. It can be seen that one filter is more close to the ideal than the other. That is because the order of that filter is higher than that of the other. I won’t go into the mathematical details of the filter order, however, it is essential to know that there is an accuracy-complexity tradeoff associated with it. As we increase the filter order, we get more accurate results but the time it takes to obtain those results increases. Also, designing a filter beyond a certain order sometimes isn’t possible using the conventional design techniques due to the filter becoming unstable. </p>
 
 <p align="center">
-  <img src="https://akulmalhotra.github.io/files/waveletecg/realfilt.jpg?raw=true" alt="Photo" style="width: 450px;"/> 
+  <img src="https://akulmalhotra.github.io/files/waveletecg/realfilt.jpg?raw=true" alt="Photo" style="width: 600px;"/> 
 </p>
 
 <p style='text-align: center;'>
