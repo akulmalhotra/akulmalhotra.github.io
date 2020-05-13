@@ -45,7 +45,7 @@ Faster processing of the collected data would lead to faster diagnosis, which ca
 A digital signal processing kit (DSP kit) is a specialized microprocessor with its hardware optimized to run signal processing algorithms. Most signal processing techniques are heavily reliant on floating-point operations, multiply and add operations, matrix multiplication operations, and convolution operations. Although it is possible for a general-purpose CPU to execute the above-mentioned operations, a DSP kit will do it in a much faster and energy-efficient way. This is because of the software and hardware level modifications that make the microprocessor especially suited to DSP. For example, to speed up the Fast Fourier Transform (FFT), one of the most important signal processing algorithms, a DSP kit may have multiple highly parallel multiply and accumulate (MAC) units, since the FFT heavily depends on multiply-accumulate performance. </p>
 
 <p align="center">
-  <img src="https://akulmalhotra.github.io/files/waveletecg/tikit.jpg?raw=true" alt="Photo" style="width: 450px;"/> 
+  <img src="https://akulmalhotra.github.io/files/waveletecg/tikit.jpg?raw=true" alt="Photo" style="width: 400px;"/> 
 </p>
 
 <p style='text-align: center;'>
