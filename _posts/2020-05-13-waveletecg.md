@@ -39,6 +39,37 @@ The problem I was trying to solve was to reduce the time taken for the baseline 
 <p style='text-align: justify;'>
 Faster processing of the collected data would lead to faster diagnosis, which can be beneficial in multiple ways. A reduction of diagnosis time would enable doctors to make decisions faster, which can be crucial in emergency situations. Also, faster processing means fewer ECG kits would be required to conduct the same number of tests as before, leading to a reduction in costs for the medical facility. </p>
 
+**What are the current state of the art techniques to solve this problem?**
+
+<p style='text-align: justify;'>
+Filtering is one of the most used techniques in signal processing. A filter can be described as a device or component which takes a signal as input and removes certain unwanted components from it before outputting it. Since the baseline wander is the unwanted component in the ECG signal, baseline wander removal can be analyzed as a filtering problem. </p>
+
+<p style='text-align: justify;'>
+As mentioned earlier, the baseline wander lies between 0-0.5Hz. Therefore, if we remove that particular frequency band, we will get rid of the noise. Another way to interpret that is we let the frequencies in the ECG signal having a value higher than 0.5Hz pass undisturbed while removing the frequency components below it. The filters that perform this operation are called high pass filters. </p>
+
+<p align="center">
+  <img src="https://akulmalhotra.github.io/files/waveletecg/idealfilt.jpg?raw=true" alt="Photo" style="width: 450px;"/> 
+</p>
+
+<p style='text-align: center;'>
+Figure 2: An ideal high pass filter</p>
+
+<p style='text-align: justify;'>
+Figure 2 shows an ideal high pass filter, which would zero out all frequency components below x, known as the cutoff frequency. In reality, it is impossible to design ideal filters using traditional filter design techniques. Figure 3 shows 2 real high pass filters designed using the same technique. It can be seen that one filter is more close to the ideal than the other. That is because the order of that filter is higher than that of the other. I won’t go into the mathematical details of the filter order, however, it is essential to know that there is an accuracy-complexity tradeoff associated with it. As we increase the filter order, we get more accurate results but the time it takes to obtain those results increases. Also, designing a filter beyond a certain order sometimes isn’t possible using the conventional design techniques due to the filter becoming unstable. </p>
+
+<p align="center">
+  <img src="https://akulmalhotra.github.io/files/waveletecg/realfilt.jpg?raw=true" alt="Photo" style="width: 450px;"/> 
+</p>
+
+<p style='text-align: center;'>
+Figure 2: Two real high pass filters. The right one has a higher order than the left</p>
+
+<p style='text-align: justify;'>
+Generally, traditional filters are sufficient for most real-world filtering applications. This is because a certain margin of error is acceptable in most results. However, in a sensitive industry like healthcare, there is no scope to make incorrect decisions. Therefore, ECG signal processing needs to have near-perfect accuracy. If a traditional filter is used for baseline wander removal, it will need to have a high order to ensure high accuracy, which would dramatically increase the computation time. Therefore, we need to consider other kinds of filters to solve this problem. </p>
+
+<p style='text-align: justify;'>
+A wavelet-based filter, inspired by the discrete wavelet transform (DWT), decomposes the original signal into a series of sub-signals. For example, if we have a signal which has a range of frequencies from 0-64Hz, the DWT will decompose the signal into two sub-signals, one with frequencies 0-32Hz, and the other with frequencies 32-64Hz. This process will then be repeated with both the sub-signals. The decomposition process is repeated until the desired sub-signals are obtained and filtered out ( or retained). Once the filtering is complete, the remaining sub-signals are added up to reconstruct the signal. </p> 
+
 **In your project, what do you propose to improve the state of the art?**
 
 <p style='text-align: justify;'>
