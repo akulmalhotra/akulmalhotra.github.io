@@ -6,7 +6,7 @@ author_profile: true
 <br>
 <b>[Exploiting Oxide Based Resistive RAM Variability for Bayesian Neural Network Hardware Design](https://ieeexplore.ieee.org/abstract/document/9050663)</b> <br> 
 <b>Akul Malhotra</b>, Sen Lu, Kezhou Yang, Abhronil Sengupta.
-<i>IEEE Transactions on Nanotechnology</i>. <b> IEEE TNANO Letters</b>.
+<i>IEEE Transactions on Nanotechnology (IEEE TNANO Letters)</i>.
 
 <b>[All-Spin Bayesian Neural Networks](https://ieeexplore.ieee.org/abstract/document/8994189)</b> <br> 
  Kezhou Yang, <b>Akul Malhotra</b>, Sen Lu, Abhronil Sengupta.
