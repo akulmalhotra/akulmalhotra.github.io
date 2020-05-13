@@ -18,8 +18,12 @@ Here is a list of the research projects I have worked on:
  
  <b>Wavelet Based Filtering for Baseline Wander Removal in ECG Signals on a TI DSP Kit</b> <br>
  January 2019 - May 2019 <br>
+ <p style='text-align: justify;'>
+ I worked on implementing a wavelet-based filter on the Texas Instruments TMS3320C5515 DSP board to remove the baseline wander from ECG signals. </p>
  
- <b>Wavelet Based Filtering for Baseline Wander Removal in ECG Signals on a TI DSP Kit</b> <br>
+ <button onclick="document.location = 'https://akulmalhotra.github.io/posts/2020/05/waveletecg'">Blog Post</button>
+ 
+ <b>Desigining a non volatile SRAM cell with write termination</b> <br>
  August 2018 - December 2018 <br>
  
  <b>Marine Soundscape Analysis of the Angria Bank Coral Reef Region</b> <br>
