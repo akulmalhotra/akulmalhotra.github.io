@@ -15,6 +15,8 @@ Here is a list of the research projects I have worked on:
  
  <b>Analysing the Ranchland's Hum: An Urban Community Noise, from the perspective of human annoyance</b> <br>
  May 2019 - August 2019 <br>
+ <p style='text-align: justify;'>
+ I worked on this project as a MITACS Globalink research intern at the University of Calgary. The Ranchland's Hum is a low frequency urban noise nuisance which has been bothering the residents of the Ranchland's neighbourhood of Calgary for several years. The objective of my research was to analyze the hum audio data to find out which hum events can be heard by the hum ear and thus, cause annoyance.   
  
  <b>Wavelet Based Filtering for Baseline Wander Removal in ECG Signals on a TI DSP Kit</b> <br>
  January 2019 - May 2019 <br>
