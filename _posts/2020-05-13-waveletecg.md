@@ -9,7 +9,7 @@ tags:
 ---
 
 <p style='text-align: justify;'>
-I worked on this project during the second semester of my junior year under the supervision of <a href="https://scholar.google.co.in/citations?hl=en&user=TrujKPcAAAAJ&view_op=list_works">Dr. Ananthakrishna Chintanpalli</a>. </p> 
+A simplified explanation of the project I worked on during the second semester of my junior year under the supervision of <a href="https://www.bits-pilani.ac.in/pilani/ananthakrishna/profile">Dr. Ananthakrishna Chintanpalli</a>. </p> 
 
 **Briefly explain the problem you worked on.**
 <p style='text-align: justify;'>
