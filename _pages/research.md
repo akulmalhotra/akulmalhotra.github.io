@@ -23,7 +23,7 @@ Here is a list of the research projects I have worked on:
  
  <button onclick="document.location = 'https://akulmalhotra.github.io/posts/2020/05/waveletecg'">Blog Post</button>
  
- <b>Desigining a non volatile SRAM cell with write termination</b> <br>
+ <b>Design of a non volatile SRAM cell with self write termination</b> <br>
  August 2018 - December 2018 <br>
  
  <b>Marine Soundscape Analysis of the Angria Bank Coral Reef Region</b> <br>
