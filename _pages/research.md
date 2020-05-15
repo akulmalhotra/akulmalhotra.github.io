@@ -31,4 +31,14 @@ Here is a list of the research projects I have worked on:
  <b>Marine Soundscape Analysis of the Angria Bank Coral Reef Region</b> <br>
  May 2018 - July 2018 <br>
  
+ Some other projects I've worked on:
+ 
+ <b>An RF Adapter to make a PS/2 keyboard wireless</b> <br>
+ <p style='text-align: justify;'>
+ I designed transmitter and receiver modules using the LPC 2148 microcontroller, which when connected to the keyboard and computer respectively, allowed the keyboard to function wirelessly. </p>
+ 
+ <button onclick="document.location = 'https://hackaday.io/project/161252-an-rf-adapter-to-make-a-ps2-keyboard-wireless'">Tutorial</button>
+ 
+ 
+ 
  
