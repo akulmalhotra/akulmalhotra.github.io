@@ -40,7 +40,7 @@ Here is a list of the research projects I have worked on:
 <p style='text-align: justify;'>
 Using audio recording from the reef region, I analysed the temporal variations in the biophony and anthropophony of the soundscape. </p> 
  
- Some other projects I've worked on:
+ **Some other projects I've worked on:**
  
  <b>An RF Adapter to make a PS/2 keyboard wireless</b> <br>
  <p style='text-align: justify;'>
