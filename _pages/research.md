@@ -11,7 +11,8 @@ Here is a list of the research projects I have worked on:
  <p style='text-align: justify;'>
  I worked on designing hardware accelerators for Bayesian neural networks using post CMOS technologies. The design was envisioned using both resistive random access memories (RRAMs) and spintronic devices. </p>
  
- <button onclick="document.location = 'https://akulmalhotra.github.io/posts/2020/05/spinbnn'">Blog Post</button>
+ <button onclick="document.location = 'https://akulmalhotra.github.io/posts/2020/05/spinbnn'">Blog Post 1</button>
+ <button onclick="document.location = 'https://akulmalhotra.github.io/posts/rrambnn'">Blog Post 2</button>
  
  <b>Analysing the Ranchland's Hum: An Urban Community Noise, from the perspective of human annoyance</b> <br>
  May 2019 - August 2019 <br>
@@ -28,8 +29,16 @@ Here is a list of the research projects I have worked on:
  <b>Design of a non volatile SRAM cell with self write termination</b> <br>
  August 2018 - December 2018 <br>
  
+ <p style='text-align: justify;'>
+ I worked on designing a hybrid MTJ/CMOS SRAM cell and a write completion sensing circuit, which terminated the write operation upon completion. </p>
+ 
+ <button onclick="document.location = 'https://akulmalhotra.github.io/posts/2020/05/nvsram'">Blog Post</button>
+ 
  <b>Marine Soundscape Analysis of the Angria Bank Coral Reef Region</b> <br>
  May 2018 - July 2018 <br>
+ 
+<p style='text-align: justify;'>
+Using audio recording from the reef region, I analysed the temporal variations in the biophony and anthropophony of the soundscape. </p> 
  
  Some other projects I've worked on:
  
