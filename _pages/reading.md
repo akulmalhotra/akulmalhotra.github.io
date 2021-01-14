@@ -1,6 +1,6 @@
 ---
 title: "Reading list"
-permalink: /publications/
+permalink: /reading/
 author_profile: true
 ---
 
