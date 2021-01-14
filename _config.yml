@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Akul Malhotra"
 title_separator          : "-"
 name                     : &name "Akul Malhotra"
-description              : &description "Senior Year Student at BITS Pilani"
+description              : &description "Graduate student at Purdue University"
 url                      : https://akulmalhotra.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "akulmalhotra/akulmalhotra.github.io"
@@ -84,7 +84,7 @@ analytics:
 author:
   name             : "Akul Malhotra"
   avatar           : "avatar.jpeg"
-  bio              : "Senior Year Student at BITS Pilani"
+  bio              : "Graduate student at Purdue University"
   location         : "New Delhi, India"
   employer         :
   pubmed           : 
