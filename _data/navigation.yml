@@ -8,6 +8,9 @@ main:
     
    - title: "Blog Posts"
      url: /posts/
+     
+   - title: "Reading"
+     url: /reading/
 
    - title: "CV"
      url: /files/CV_am.pdf    
