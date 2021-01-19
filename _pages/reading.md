@@ -9,3 +9,4 @@ author_profile: true
 1. Steppenwolf - Hermann Hesse
 2. Emperor of all Maladies - Siddhartha Mukherjee
 3. The Metamorphosis - Franz Kafka
+4. Slaughterhouse Five - Kurt Vonnegut
