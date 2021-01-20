@@ -4,7 +4,7 @@ permalink: /reading/
 author_profile: true
 ---
 
-<b> 2020 </b>
+<b> 2021 </b>
 
 1. Steppenwolf - Hermann Hesse
 2. Emperor of all Maladies - Siddhartha Mukherjee
