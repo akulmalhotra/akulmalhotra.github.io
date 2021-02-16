@@ -11,3 +11,4 @@ author_profile: true
 3. The Metamorphosis - Franz Kafka
 4. Slaughterhouse Five - Kurt Vonnegut
 5. The Sound of the Mountain - Yasunari Kawabata
+6. The Doors of Perception - Aldous Huxley
